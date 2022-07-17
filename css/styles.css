@@ -2,8 +2,6 @@
   --main-text-color: #333333;
   --main-font: 'Open Sans', sans-serif;
   --main-indent: 30px;
-
-
 }
 
 body {
@@ -41,7 +39,7 @@ img {
 button {
   display: block;
   margin: 0 auto;
-  padding: 10px 32px; 
+  padding: 10px 32px;
   cursor: pointer;
   color: var(--white-txt-cl);
   background-color: var(--accent-txt-cl);
@@ -58,16 +56,18 @@ button {
 .header-nav {
 }
 .header-list {
+  display: flex;
+  border: 1px solid black;
 }
-
 
 .header-item {
 }
 .header-link {
-  color:aqua;
+  display: block;
+  padding: 32px 0;
+  color: aqua;
 }
 .header-link:hover,
-.header-link:focus{
+.header-link:focus {
   color: orange;
 }
-
